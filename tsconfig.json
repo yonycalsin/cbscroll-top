@@ -1,5 +1,12 @@
 {
    "compilerOptions": {
+      "lib": [
+         "es2017",
+         "dom",
+         "dom.iterable",
+         "es6",
+         "scripthost"
+      ],
       "module": "commonjs",
       "declaration": true,
       "removeComments": true,

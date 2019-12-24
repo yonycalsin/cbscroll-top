@@ -1,2 +1,2 @@
-## Go to Documentation
-[Click Here](https://yonicb.github.io/scroll-top)
+## Welcome to Cb Scroll Top Website
+[Go to documentation](https://yonicb.github.io/cbscroll-top)

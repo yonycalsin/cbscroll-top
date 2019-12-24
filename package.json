@@ -1,0 +1,25 @@
+{
+   "name": "scroll-top",
+   "version": "1.0.0",
+   "description": "💥 Take the user 🎁 to the top of the page with just one click 👍.",
+   "main": "bin/scroll-top.js",
+   "scripts": {
+      "test": "tsc src/scroll-top.ts"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yonicb/scroll-top.git"
+   },
+   "keywords": [
+      "scroll-top",
+      "scroll",
+      "top",
+      "bootom scroll"
+   ],
+   "author": "Yoni Calsin helloyonicb@gmail.com",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/yonicb/scroll-top/issues"
+   },
+   "homepage": "https://github.com/yonicb/scroll-top#readme"
+}

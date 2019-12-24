@@ -8,7 +8,7 @@ module.exports = {
       rules: [
          // Typescript Configuration
          {
-            test: /\.tsx?$/,
+            test: /\.ts?$/,
             use: 'ts-loader',
             exclude: /node_modules/,
          },

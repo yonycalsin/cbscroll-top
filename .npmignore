@@ -6,3 +6,7 @@
 .prettierrc
 .npmrc
 tsconfig.json
+webpack.config.js
+webpack.development.config.js
+webpack.production.config.js
+tslint.json

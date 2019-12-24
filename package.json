@@ -4,8 +4,8 @@
    "description": "💥 Take the user 🎁 to the top of the page with just one click 👍.",
    "main": "dist/scroll-top.js",
    "scripts": {
-      "start": "npx webpack --mode=development",
-      "start:prod": "npx webpack --mode=production",
+      "start": "webpack --mode=development",
+      "start:prod": "webpack --mode=production",
       "prettier": "prettier --write './src/**/*.ts' --config ./.prettierrc"
    },
    "repository": {

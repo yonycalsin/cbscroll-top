@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-   entry: './src/scroll-top.ts',
+   entry: './src/cbscroll-top.ts',
    // devtool: 'inline-source-map',
    watch: true,
    module: {
@@ -31,7 +31,7 @@ module.exports = {
       extensions: ['.ts', '.js'],
    },
    output: {
-      filename: 'scroll-top.js',
+      filename: 'cbscroll-top.js',
       path: path.resolve(__dirname, 'dist'),
    },
 };

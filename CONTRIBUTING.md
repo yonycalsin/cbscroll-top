@@ -1,12 +1,12 @@
 # Contributing to `Scroll Top`
 
-As the creators and maintainers of this project, we want to ensure that `scroll-top` lives and continues to grow and evolve. We would like to encourage everyone to help and support this library by contributing. 
+As the creators and maintainers of this project, we want to ensure that `cbscroll-top` lives and continues to grow and evolve. We would like to encourage everyone to help and support this library by contributing. 
 
 ## Code contributions
 
 Here is a quick guide to doing code contributions to the library.
 
-1. Fork and clone the repo to your local machine `git clone https://github.com/YOUR_NAME/scroll-top.git`
+1. Fork and clone the repo to your local machine `git clone https://github.com/YOUR_NAME/cbscroll-top.git`
 
 2. Create a new branch from `master` with a meaningful name for a new feature or an issue you want to work on: `git checkout -b your-branch-name`
 
@@ -34,7 +34,7 @@ Here is a quick guide to doing code contributions to the library.
 	
 9. Push your branch: `git push -u origin your-branch-name`
 
-10. Submit a pull request to the upstream scroll-top repository.
+10. Submit a pull request to the upstream cbscroll-top repository.
 
 11. Choose a descriptive title and describe your changes briefly.
 
@@ -44,7 +44,7 @@ Please follow the coding style of the project. Scroll Top uses tslint and pretti
 
 ## License
 
-By contributing your code to the scroll-top GitHub repository, you agree to license your contribution under the MIT license.
+By contributing your code to the cbscroll-top GitHub repository, you agree to license your contribution under the MIT license.
 
 ### Contributors
 

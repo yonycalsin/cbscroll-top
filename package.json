@@ -1,8 +1,8 @@
 {
-   "name": "scroll-top",
+   "name": "cbscroll-top",
    "version": "1.0.0",
    "description": "💥 Take the user 🎁 to the top of the page with just one click 👍.",
-   "main": "dist/scroll-top.js",
+   "main": "dist/cbscroll-top.js",
    "scripts": {
       "start": "webpack --mode=development",
       "start:prod": "webpack --mode=production",
@@ -10,20 +10,21 @@
    },
    "repository": {
       "type": "git",
-      "url": "git+https://github.com/yonicb/scroll-top.git"
+      "url": "git+https://github.com/yonicb/cbscroll-top.git"
    },
    "keywords": [
-      "scroll-top",
+      "cbscroll-top",
       "scroll",
+      "scroll-top",
       "top",
       "bootom scroll"
    ],
    "author": "Yoni Calsin <helloyonicb@gmail.com>",
    "license": "MIT",
    "bugs": {
-      "url": "https://github.com/yonicb/scroll-top/issues"
+      "url": "https://github.com/yonicb/cbscroll-top/issues"
    },
-   "homepage": "https://github.com/yonicb/scroll-top#readme",
+   "homepage": "https://github.com/yonicb/cbscroll-top#readme",
    "devDependencies": {
       "css-loader": "^3.4.0",
       "node-sass": "^4.13.0",

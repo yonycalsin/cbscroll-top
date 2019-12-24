@@ -2,7 +2,8 @@ const path = require('path');
 
 module.exports = {
    entry: './src/scroll-top.ts',
-   devtool: 'inline-source-map',
+   // devtool: 'inline-source-map',
+   watch: true,
    module: {
       rules: [
          {

@@ -1,12 +1,12 @@
 {
    "name": "cbscroll-top",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "description": "💥 Take the user 🎁 to the top of the page with just one click 👍.",
    "main": "dist/cbscroll-top.js",
    "scripts": {
-      "start": "webpack --mode=development",
-      "start:prod": "webpack --mode=production",
-      "prettier": "prettier --write './src/**/*.ts' --config ./.prettierrc"
+      "start": "yarn prebuild && webpack --config webpack.dev.js",
+      "build": "yarn prebuild && webpack --config webpack.prod.js",
+      "prebuild": "rimraf dist"
    },
    "repository": {
       "type": "git",
@@ -27,16 +27,18 @@
    "homepage": "https://github.com/yonicb/cbscroll-top#readme",
    "devDependencies": {
       "@types/node": "^13.1.0",
+      "animation-scroll.js": "^1.0.4",
       "css-loader": "^3.4.0",
       "node-sass": "^4.13.0",
-      "prettier": "^1.19.1",
+      "rimraf": "^3.0.0",
       "sass-loader": "^8.0.0",
       "style-loader": "^1.1.1",
       "ts-loader": "^6.2.1",
       "tslint": "^5.20.1",
       "typescript": "^3.7.4",
       "webpack": "^4.41.4",
-      "webpack-cli": "^3.3.10"
+      "webpack-cli": "^3.3.10",
+      "webpack-merge": "^4.2.2"
    },
    "dependencies": {}
 }

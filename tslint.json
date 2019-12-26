@@ -31,6 +31,9 @@
       "variable-name": [
          false
       ],
+      "space-before-function-paren": [
+         false
+      ],
       "arrow-parens": false,
       "object-literal-sort-keys": false
    },

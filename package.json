@@ -5,8 +5,10 @@
    "main": "dist/cbscroll-top.js",
    "scripts": {
       "start": "yarn prebuild && webpack --config webpack.dev.js",
-      "build": "yarn prebuild && webpack --config webpack.prod.js",
-      "prebuild": "rimraf dist"
+      "build": "yarn prebuild && webpack --config webpack.prod.js && yarn sass:min",
+      "prebuild": "rimraf dist",
+      "sass": "node-sass --watch src -o dist --output-style expanded",
+      "sass:min": "node-sass src -o dist --output-style compressed --no-recursive"
    },
    "repository": {
       "type": "git",
@@ -27,12 +29,12 @@
    "homepage": "https://github.com/yonicb/cbscroll-top#readme",
    "devDependencies": {
       "@types/node": "^13.1.0",
-      "animation-scroll.js": "^1.0.4",
+      "animation-scroll.js": "^1.0.12",
       "css-loader": "^3.4.0",
       "node-sass": "^4.13.0",
       "rimraf": "^3.0.0",
       "sass-loader": "^8.0.0",
-      "style-loader": "^1.1.1",
+      "style-loader": "^1.1.2",
       "ts-loader": "^6.2.1",
       "tslint": "^5.20.1",
       "typescript": "^3.7.4",

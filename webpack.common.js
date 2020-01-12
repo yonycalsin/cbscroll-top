@@ -6,18 +6,27 @@
  */
 
 const path = require('path');
+const webpack = require('webpack');
+
 
 module.exports = {
-   entry: './src/cbscroll-top.ts',
-   // devtool: 'inline-source-map',
-   // watch: true,
+   entry: './src/index.ts',
    module: {
       rules: [
          // Typescript Configuration
          {
             test: /\.ts?$/,
-            use: 'ts-loader',
             exclude: /node_modules/,
+            use: [
+               {
+                  loader: 'ts-loader',
+                  options: {
+                     transpileOnly: false,
+                     onlyCompileBundledFiles: true,
+                     allowTsInNodeModules: true
+                  }
+               }
+            ]
          },
          // Sass Configuration
          {
@@ -38,7 +47,10 @@ module.exports = {
       extensions: ['.ts', '.js'],
    },
    output: {
-      filename: 'cbscroll-top.js',
+      filename: 'index.js',
       path: path.resolve(__dirname, 'dist'),
    },
+   plugins: [
+      new webpack.ProgressPlugin(),
+   ]
 };

@@ -4,9 +4,10 @@
    "description": "💥 Take the user 🎁 to the top of the page with just one click 👍.",
    "main": "dist/cbscroll-top.js",
    "scripts": {
-      "start": "yarn prebuild && webpack --config webpack.dev.js",
-      "build": "yarn prebuild && webpack --config webpack.prod.js && yarn sass:min",
-      "prebuild": "rimraf dist",
+      "start": "yarn prebuild:js && webpack --config webpack.dev.js",
+      "build": "yarn prebuild:js && yarn prebuild:css && webpack --config webpack.prod.js && yarn sass:min",
+      "prebuild:js": "rimraf dist/*.js",
+      "prebuild:css": "rimraf dist/*.js",
       "sass": "node-sass --watch src -o dist --output-style expanded",
       "sass:min": "node-sass src -o dist --output-style compressed --no-recursive"
    },
